@@ -1,3 +1,10 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +42,283 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+font{
+font-family: 'Alumni Sans', sans-serif;
+font-family: 'Praise', cursive;
+font-family: 'Tapestry', cursive;
+font-size: 250%;
+}
+
+#contenido-texto{
+  background-color: #9f6800;
+  color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  width: 35px;
+  height: 35px;
+}
+
+header{
+  width: 100%;
+  position: fixed;
+  display: inline-block;
+  z-index: 10;
+}
+
+/*__________NAV___________________________*/
+    nav{
+      position: relative;
+      background:#001533;
+      width: 100%;
+      min-width: 523px;
+      float: left;
+      min-height: 100px;
+      display: block;
+      border-bottom: 1px solid rgb(41, 178, 247);
+      z-index: 10;
+    }
+
+    nav ul{
+      margin-top: 25px;
+      float: right;
+      color: #f8841f;
+    }
+    .nav-link{
+      color: #2196f3;
+    }
+    nav img{
+      padding: 20px;
+      float: left;
+      height: 100%;
+    }
+
+    nav button{
+      display: inline-block;
+      margin: auto;
+      margin-top: 25px;
+      width: 200px;
+      height: 50px; 
+    }
+/*_____________________________________*/
+
+#presentacion{
+  display: block;
+  position: fixed;
+  width: 100%;
+  text-align:center ;
+  background-color: rgba(255, 255, 255, 0.306);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  z-index: 8;
+  transition: all 0s ease-out;
+}
+
+#fonoP{
+  width: 100%;
+  max-height: 700px;
+  transition: all 0s ease-out;
+}
+
+#infoP{
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.6);
+  width: 100%;
+  z-index: 8;
+  transition: all 0s ease-out;
+  text-align: center;  
+}
+
+#infoP h1{
+  display: inline-block;
+  height: 60%;
+  color: rgb(0, 122, 210)
+}
+
+#infoP h2{
+  display: block;
+  color:#001533
+}
+
+#cuerpo{
+  position: absolute;
+  width: 100%;
+  display: inline-block;
+  background-color: #ffffff;
+  z-index: 9;
+}
+.contenedorVisualizacion{
+  width: 100%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  color: #001533;
+}
+#right{
+  float: right;
+  height: 100%;
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 50px;
+  height: 200px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight:bold;
+  font-size: 150%;
+}
+#left{
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
+  float: left;
+  width: 50px;
+  height: 200px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight:bold;
+  font-size: 150%;
+  
+}
+
+#visualizacion{
+  display: inline-block;
+  width: calc(100% - 100px);
+  overflow: hidden;
+  background-color: #ffffff;
+}
+.galeria{
+ 
+  display:inline-block;
+  width: 1000%;
+  position: relative;
+  right: 000%;
+  
+}
+.foto{
+  text-align: center;
+  float: left;
+  width: 10%;
+  display: inline-block;
+  
+  
+}
+
+.foto img{
+  width:70%;
+  max-width: 650px;
+  
+}
+
+
+.contenedor{
+  display: block;
+  width: 80%;
+  border: 3px outset white;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  background: #003785;
+  color: white;
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 20px;
+
+}
+
+
+
+.contenedor p{
+  text-align: justify;
+}
+.contenedor img{
+  width: 40%;
+  border-radius: 30px;
+}
+
+.contenedor ul{
+  text-align: left;
+}
+
+span img{
+  width: 100%;
+  height: 100%;
+}
+
+span {
+  display:inline-block ;
+  width: 100px;
+  
+ 
+  
+}
+
+
+
+#ContDevelopers{
+  display: inline-block;
+  width: 100%;
+  
+  margin-left: auto;
+  
+  margin-top: 20px;
+}
+
+#Developers{
+  width: 95%;
+  height: 100%;
+  display: inline-block;
+  
+}
+
+.dev{
+  float: left;
+  display: inline-block;
+  width: calc(20% - 10px );
+  height: 100%;
+  background:  #fcb550;
+  border-radius: 25px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 5px;
+}
+.dev img{
+  width: 100%;
+  border: none;
+  
+}
+
+.dev h6{
+  margin: 5px;
+  margin-bottom: 20px;
+  
+  height: 20%;
+}
+
+
+.dev img{
+  width: 100%;
+  
+}
+
+
+.imgBorde{
+  border: 3px solid #61dafb;
+  margin-bottom: 10px;
+}
+
+
+footer{
+  margin-top: 40px;
+  width: 100%;
+  background-color: #282c3421;
+  padding: 10px;
+  border-top-left-radius:20px ;
+  border-top-right-radius:20px ;
+}
+
+@media screen and (max-width: 940px) {
+
+
 }
